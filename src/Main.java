@@ -20,7 +20,7 @@ public class Main {
         while (jogoAtivo) {
             exibirTabuleiro();
             if(jogadorAtual == 'X'){
-                System.out.println("Vez do jogador " + RED + jogadorAtual + RESET + ":");
+                System.out.println("Vez do Jogador " + RED + jogadorAtual + RESET + ":");
             }else {
                 System.out.println("Vez do jogador " + BLUE + jogadorAtual + RESET + ":");
             }
